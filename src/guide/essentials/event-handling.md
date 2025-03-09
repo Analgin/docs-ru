@@ -286,7 +286,7 @@ Vue для решения этой задачи предоставляет **м�
 <input @keyup.enter="submit" />
 ```
 
-Можно использовать любые допустимые имена клавиш напрямую, используя в качестве модификаторов ключи [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values) и указывая их имена в формате kebab-case.
+Можно использовать любые допустимые имена клавиш напрямую, используя в качестве модификаторов ключи [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values) и указывая их имена в формате camel case.
 
 ```vue-html
 <input @keyup.page-down="onPageDown" />
